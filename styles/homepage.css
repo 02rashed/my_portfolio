@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(20, 84, 86);
+    background-color: rgb(14, 113, 122);
 }
 
 h2 {
@@ -8,7 +8,19 @@ h2 {
     margin-left: 100px;
     margin-top: 10px;
     font-weight: 500;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: cursive;
+}
+
+.navbar-contact {
+    font-size: medium;
+    color: aliceblue;
+    background-color: rgba(50, 50, 195, 0.573);
+    position: fixed;
+    right: 80px;
+    margin-top: 20px;
+    line-height: 10px;
+    border: none;
+    padding: 8px;
 }
 
 .nav-bar {
@@ -25,5 +37,40 @@ h2 {
 }
 
 a:link {
+    text-decoration: overline;
     color: aliceblue;
+}
+
+a:hover {
+    color: black;
+}
+
+.owner-intro {
+    display: flex;
+}
+
+.name {
+    margin-top: 200px;
+    margin-left: 200px;
+    font-size: xx-large;
+    font-family: monospace;
+    color: aliceblue;
+}
+
+.hello {
+    margin-inline-end: 200px;
+    padding: 10px 30px;
+    line-height: 26px;
+    background-color: deepskyblue;
+    border: 0px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.owner-pic {
+    border: none;
+    border-radius: 150px;
+    position: relative;
+    margin-top: 200px;
+    margin-left: 300px;
 }
