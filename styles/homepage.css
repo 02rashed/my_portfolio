@@ -2,30 +2,9 @@ body {
     background-color: rgb(14, 113, 122);
 }
 
-h2 {
-    color: aliceblue;
-    position: fixed;
-    margin-left: 100px;
-    margin-top: 10px;
-    font-weight: 500;
-    font-family: cursive;
-}
-
-.navbar-contact {
-    font-size: medium;
-    color: aliceblue;
-    background-color: rgba(50, 50, 195, 0.573);
-    position: fixed;
-    right: 80px;
-    margin-top: 20px;
-    line-height: 10px;
-    border: none;
-    padding: 8px;
-}
-
 .nav-bar {
     display: inline-flex;
-    position: fixed;
+    position: sticky;
     margin-left: 600px;
     margin-top: 20px;
 }
@@ -36,16 +15,21 @@ h2 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-a:link {
+.nav-bar a:link {
     text-decoration: overline;
     color: aliceblue;
+}
+
+a:link {
+    color: aliceblue;
+    text-decoration: none;
 }
 
 a:hover {
     color: black;
 }
 
-.owner-intro {
+.owner {
     display: flex;
 }
 
@@ -69,8 +53,71 @@ a:hover {
 
 .owner-pic {
     border: none;
-    border-radius: 150px;
+    border-radius: 50px;
     position: relative;
-    margin-top: 200px;
+    margin-top: 80px;
     margin-left: 300px;
+}
+
+.contact-me-text {
+    color: aliceblue;
+    font-size: xxx-large;
+    position: relative;
+    left: 200px;
+    margin-top: 300px;
+}
+
+.mail-icon {
+    position: relative;
+    left: 200px;
+}
+
+.mail-name {
+    position: relative;
+    left: 210px;
+    bottom: 5px;
+}
+
+.cell {
+    color: aliceblue;
+    position: relative;
+    left: 198px;
+}
+
+.cell-no {
+    position: relative;
+    left: 44px;
+    bottom: 41px;
+}
+
+.location {
+    color: aliceblue;
+    position: relative;
+    left: 197px;
+    bottom: 56px;
+}
+
+.adress {
+    position: relative;
+    bottom: 45px;
+    left: 45px;
+}
+
+.socials {
+    display: inline-flex;
+    position: relative;
+    left: 200px;
+    bottom: 90px;
+}
+
+.socials a {
+    margin-right: 20px;
+}
+
+.about {
+    color: aliceblue;
+    font-size: xxx-large;
+    position: relative;
+    margin-top: 300px;
+    margin-left: 100px;
 }
