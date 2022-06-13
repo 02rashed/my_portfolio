@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(20, 84, 86);
+}
+
+h2 {
+    color: aliceblue;
+    position: fixed;
+    margin-left: 100px;
+    margin-top: 10px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-bar {
+    display: inline-flex;
+    position: fixed;
+    margin-left: 600px;
+    margin-top: 20px;
+}
+
+.nav-bar a {
+    margin-right: 30px;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:link {
+    color: aliceblue;
+}
