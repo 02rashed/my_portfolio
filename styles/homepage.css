@@ -74,6 +74,10 @@ a:link {
 .support {
     height: 100vh;
     width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-self: flex-end;
 }
 
 .contact-me-text {
@@ -141,6 +145,9 @@ a:link {
 .about {
     height: 100vh;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .about-text {
