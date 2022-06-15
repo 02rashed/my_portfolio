@@ -7,14 +7,13 @@ body {
     top: 2px;
     width: 100%;
     height: 10vh;
-    z-index: 9999;
+    z-index: 999;
 }
 
 .nav-bar {
     display: inline-flex;
     margin-left: 600px;
     margin-top: 20px;
-    z-index: 999;
 }
 
 .nav-bar a {
@@ -33,8 +32,13 @@ a:link {
     text-decoration: none;
 }
 
-a:hover {
+.nav-bar a:hover {
     color: black;
+}
+
+.home {
+    width: 100%;
+    height: 100vh;
 }
 
 .owner {
@@ -67,12 +71,16 @@ a:hover {
     margin-left: 300px;
 }
 
+.support {
+    height: 100vh;
+    width: 100%;
+}
+
 .contact-me-text {
     color: aliceblue;
     font-size: xxx-large;
     position: relative;
-    left: 200px;
-    margin-top: 300px;
+    margin-left: 190px;
 }
 
 .mail-icon {
@@ -89,26 +97,34 @@ a:hover {
 .cell {
     color: aliceblue;
     position: relative;
-    left: 198px;
 }
 
 .cell-no {
     position: relative;
-    left: 44px;
+    margin-left: 240px;
     bottom: 41px;
+}
+
+.cell-icon {
+    position: relative;
+    margin-left: 200px;
 }
 
 .location {
     color: aliceblue;
     position: relative;
-    left: 197px;
     bottom: 56px;
+}
+
+.location-icon {
+    position: relative;
+    margin-left: 200px;
 }
 
 .adress {
     position: relative;
     bottom: 45px;
-    left: 45px;
+    margin-left: 240px;
 }
 
 .socials {
@@ -124,16 +140,38 @@ a:hover {
 
 .about {
     height: 100vh;
+    width: 100%;
+}
+
+.about-text {
+    position: relative;
+    margin-left: 300px;
     color: aliceblue;
     font-size: xxx-large;
 }
 
-.support {
-    height: 100vh;
-    width: 100%;
+.about-me {
+    position: relative;
+    margin-left: 200px;
+    color: aliceblue;
+    font-size: large;
+    font-family: cursive;
 }
 
-.home {
-    width: 100%;
-    height: 100vh;
+.ht {
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border: 0px;
+    border-radius: 8px;
+    background-color: rgb(0, 0, 0);
+}
+
+.cs {
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border: 0px;
+    border-radius: 8px;
+    background-color: rgb(0, 0, 0);
 }
